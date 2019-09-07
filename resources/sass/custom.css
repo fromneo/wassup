@@ -1,0 +1,464 @@
+body,html{
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%; 
+background: #fff;    
+}
+img{
+max-width: 100%;    
+}
+ul{
+list-style: none;
+margin: 0;
+padding: 0;    
+}
+a{
+text-decoration: none !important;  
+    
+}
+button{
+outline: 0; 
+box-shadow: none !important;    
+}
+.convert_site h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    font-weight: 700;
+    color: #000;
+}
+.convert_site p {
+    color: #26364d;
+    font-size: 16px;
+    font-weight: 600;
+}
+.convert_site ul li {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    padding: 5px 0;
+    vertical-align: middle;
+    position: relative;
+}
+.radiodata{
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; 
+    cursor: pointer;
+}
+.convert_site ul li img{
+    vertical-align: middle;
+    margin-right: 6px;    
+}
+.btn.btn-primary.next.mt-4 {
+    background: #3f48fd;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+.btn.btn-primary.next{
+    background: #3f48fd;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 7px 20px;
+        vertical-align: baseline;
+}
+.arrow {
+    margin-left: 25px;
+}
+.convert_site span {
+    vertical-align: middle;
+    color: #b7b7c0;
+    font-size: 12px;
+    padding-left: 13px;
+}
+.changeimg li {
+    display: inline-block !important;
+    border: 2px solid #ccc;
+    border-radius: 100%;
+    text-align: center;
+    padding: 10px !important;
+    margin: 0 5px 0 0;
+}
+.changeimg li img {
+    margin-right: 0 !important;
+}
+.convert_site h3 {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: #9c9ca3;
+}
+.color-border{
+border:2px solid #3640e3 !important;    
+}
+.show-image img{
+width: 150px;
+height: 150px;
+object-fit: cover;
+}
+.mainform label {
+    font-weight: 600;
+        margin: 0;
+    padding: 0;
+}
+.mainform .form-control {
+    font-size: 14px;
+    height: 40px;
+    box-shadow: none;
+}
+.mainform h6 {
+    font-size: 12px;
+    color: #96aab2;
+    margin: 3px 0 0;
+        padding: 0;
+}
+.spaktext {
+    background: #3942fe;
+    text-align: center;
+    padding: 20px;
+    border-radius: 18px;
+    float: left;
+    position: absolute;
+    bottom: 30px;
+    width: 300px;
+    left: 13%;
+}
+.spaktext p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 15px;
+}
+.spaktext:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+        border-top: 26px solid #3942fe;
+    border-right: 26px solid transparent;
+    right: -26px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+.btn.btn-primary.submit {
+       background: #fff !important;
+    color: #333 !important;
+    font-size: 14px;
+    width: 170px;
+    font-weight: 600;
+}
+.d-block.mb-2.coupencode a {
+    color: #fff;
+    font-size: 21px;
+    display: inline-block;
+    border-bottom: 2px solid;
+    text-transform: uppercase;
+}
+.copycoupen .btn.btn-primary.submit{
+width: 120px;    
+}
+.copycoupen  .spaktext {
+    border-radius: 30px;
+    bottom: 0;
+}
+.copycoupen .spaktext:before {
+    border-top: 46px solid #3942fe;
+    border-right: 46px solid transparent;
+    right: -46px;
+}
+.create_cupon span{
+    padding: 0;
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;  
+    display: block;
+}
+.create_cupon span img {
+    margin-right: 9px;
+    vertical-align: sub;
+}
+.form-control.customdrop {
+    width: 150px;
+    display: inline-block;
+    height: 30px;
+    padding: 0 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(../images/downarrow.png);
+    background-position: 93%;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-color: #fdfdfe;
+    border: 1px solid #ccc;
+        border-radius: 3px;
+}
+
+ .wrapper-dropdown {
+     position: relative;
+     width: 250px;
+     background: #FFF;
+     color: #2e2e2e;
+     outline: none;
+     cursor: pointer;
+}
+ .wrapper-dropdown > span {
+      width: 100%;
+    display: block;
+    padding: 5px;
+    background: #fdfdfe;
+    height: 40px;
+    line-height: 29px;
+    color: #3d3d3d;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+ .wrapper-dropdown > span > span {
+        padding: 0 0;
+    margin-right: 0;
+    height: 26px;
+    width: 26px;
+    display: inline-block;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin: -4px 5px 0;
+}
+ .wrapper-dropdown > span:after {
+     content: "";
+     width: 0;
+     height: 0;
+     position: absolute;
+     right: 16px;
+     border-width: 9px 9px 0 9px;
+     border-style: solid;
+     border-color: #535252 transparent;
+     top: 16px;
+     vertical-align: middle;
+}
+ .wrapper-dropdown .dropdown {
+     position: absolute;
+     z-index: 10;
+     top: 100%;
+     left: 0;
+     right: 0;
+     background: #f7f7f7;
+     font-weight: normal;
+     list-style-type: none;
+     padding-left: 0;
+     margin: 0;
+     border: 0;
+     border-top: 0;
+}
+ .wrapper-dropdown .dropdown li {
+     display: block;
+     text-decoration: none;
+     color: #3d3d3d;
+     padding: 7px;
+     cursor: pointer;
+     border-bottom: 1px solid #fff;
+     font-weight: 600;
+}
+ .wrapper-dropdown .dropdown li > span {
+   padding: 0 0;
+    margin-right: 0;
+    height: 26px;
+    width: 26px;
+    display: inline-block;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin: -4px 4px 0;
+}
+
+
+ .customradio [type="radio"]:checked,
+  .customradio [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.customradio [type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+  position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 14px;
+    display: inline-block;
+    color: #666;
+}
+.customradio [type="radio"]:checked + label:before,
+.customradio [type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+.customradio [type="radio"]:checked + label:after,
+.customradio [type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 9px;
+    height: 9px;
+    background: #3b43fe;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.customradio [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.customradio [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.customradio span {
+    padding: 0;
+    display: block;
+}
+ .customradio [type="radio"]:checked + label:before{
+    border: 1px solid #3b43fe;    
+}
+.postion-set .fa {
+    color: #d1d1d1;
+    font-size: 40px;
+}
+.postion-set l1 {
+    padding: 0 15px 0 0;
+    display: inline-block;
+    margin: 10px 0;
+    position: relative;
+}
+.create_cupon.intention span{
+   font-size: 15px;    
+    margin: 6px 0;    
+}
+.chatdata h1 {
+    font-size: 25px;
+}
+.chatdata .form-control.customdrop {
+    width: 410px;
+    height: 45px;
+    background-position: 97%;
+}
+.chatdata ul{
+margin: 0 auto;
+}
+.chatdata li {
+    display: inline-block !important;
+    background: #f7f8fb;
+    border-radius: 50px;
+    margin: 7px 29px 7px 0;
+    padding: 15px !important;
+	    border: 2px solid #f7f8fb;
+}
+
+.modal-dialog.custommodel {
+    max-width: 700px;
+}
+.modeldata h1{
+font-size: 15px;
+color: #000;
+font-weight: 800;    
+}
+.modeldata p {
+    font-size: 13px;
+    color: #333;
+    font-weight: 600;
+}
+.modeldata ul li {
+    font-size: 12px;
+    color: #7a95ab;
+    font-weight: 700;
+    vertical-align: middle;
+    padding: 5px 0;
+}
+.publish .btn.btn-primary.next {
+    background: #5a67c2;
+    text-transform: capitalize;
+}
+.publish a {
+    font-size: 12px;
+    color: #000;
+    font-weight: 700;
+    text-decoration: underline !important;
+}
+.chooseplan a {
+    background: #70ad47;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    padding: 60px 0;
+    border: 1px solid #4472c4;
+        margin-bottom: 10px
+}
+.customplan{
+justify-content: center;
+align-items: center;    
+}
+.diffrentcolor a{
+background: #4472c4;    
+}
+#load {
+        background: rgba(215, 215, 215, 0.8);
+         background-image: url('../images/1.gif');
+         background-repeat: no-repeat;
+         background-position: center;
+         background-attachment: scroll;
+          height: 100%;
+          position: fixed;
+          width: 100%;
+          z-index: 9999;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+}
+.customradio {
+    display: block;
+    padding: 0 !important;
+    font-size: 16px !important;
+}
+.customradio.customdropdown span {
+    display: inline-block;
+}
+.create_cupon label {
+    color: #000 !important;
+}
+.postion-set .radiodata {
+    height: 36px;
+    left: -5px;
+}
+.selectsec label{
+margin: 0;
+padding: 0;    
+}
+.postion-set li {
+    display: inline-block !important;
+    padding: 10px 10px 0 0 !important;
+	border:2px solid  transparent;
+}
+.boder-none{
+border:0;	
+}

@@ -1,0 +1,96 @@
+@media screen and (max-width:1199px){
+.spaktext {
+    left: 0;
+}
+.copycode .form-control {
+    /*width: 130px;*/
+}    
+}
+@media screen and (max-width:991px){
+.spaktext {
+    position: relative;
+    bottom: 0;
+    top: 10px;
+}
+.spakimg {
+    margin-left: 40px;
+}
+.copycoupen .spakimg {
+    margin: 50px 0 0 50px;
+}
+.copycode .form-control {
+    width: 90%;
+}    
+}
+@media screen and (max-width:767px){
+.copycode .btn.btn-primary {
+    width: 100%;
+}
+.copycode .form-control {
+    width: 100%;
+}     
+}
+@media screen and (max-width:540px){
+.custombox {
+    padding: 15px;
+}
+.upimg {
+    right: 0;
+    bottom: 4px;
+}    
+.spaktext {
+    width: 100%;
+    margin-bottom: 30px;
+}   
+.mainimg {
+    text-align: center;
+} 
+.copycoupen .spakimg {
+    margin: 10px 0 0 0;
+}
+.form-control.customdrop {
+    width: 100% !important;
+}
+.create_cupon span {
+    font-size: 15px;
+} 
+.postion-set l1 {
+    padding: 0 7px 0 0;
+}
+.chatdata .form-control.customdrop {
+    width: 100%;
+}
+.chatdata li {
+    margin: 7px 10px 7px 0;
+}
+.convert_site ul li {
+    font-size: 13px;
+}
+.spakimg {
+    margin-left: 0;
+}
+.create_cupon.intention span {
+    font-size: 13px;
+} 
+.customradio.customdropdown span {
+    display: block;
+}  
+.plan {
+    padding: 15px;
+}    
+}
+@media screen and (max-width:375px){
+.timetake {
+    font-size: 10px;
+    padding-left: 5px;
+}  
+#tabs .nav-tabs .nav-link {
+    font-size: 14px;
+}   
+.cutomtab .nav-tabs .nav-link {
+    padding: 1rem 0.6rem;
+}    
+.questionsec .card-header a {
+    font-size: 16px;
+}    
+}
